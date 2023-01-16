@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
 
   const ul = document.querySelector("ul");
-  let url = `https://pokeapi.co/api/v2/pokemon?offset=20&limit=10`;
+  let url = `https://pokeapi.co/api/v2/pokemon?limit=10`;
 
   function status(response) {
     if (response.status >= 200 && response.status < 300) {
